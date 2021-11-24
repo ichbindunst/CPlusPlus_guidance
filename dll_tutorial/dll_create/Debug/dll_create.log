@@ -1,0 +1,14 @@
+﻿  pch.cpp
+  dllmain.cpp
+  calculation.cpp
+E:\Softwaren\C++\c++_github\dll_tutorial\dll_create\calculation.cpp(8,32): warning C4273: 'Add': inconsistent dll linkage
+E:\Softwaren\C++\c++_github\dll_tutorial\dll_create\calculation.h(9,35): message : see previous definition of 'Add'
+E:\Softwaren\C++\c++_github\dll_tutorial\dll_create\calculation.cpp(12,37): warning C4273: 'Subtract': inconsistent dll linkage
+E:\Softwaren\C++\c++_github\dll_tutorial\dll_create\calculation.h(10,35): message : see previous definition of 'Subtract'
+E:\Softwaren\C++\c++_github\dll_tutorial\dll_create\calculation.cpp(16,37): warning C4273: 'Multiply': inconsistent dll linkage
+E:\Softwaren\C++\c++_github\dll_tutorial\dll_create\calculation.h(11,35): message : see previous definition of 'Multiply'
+E:\Softwaren\C++\c++_github\dll_tutorial\dll_create\calculation.cpp(20,35): warning C4273: 'Divide': inconsistent dll linkage
+E:\Softwaren\C++\c++_github\dll_tutorial\dll_create\calculation.h(12,35): message : see previous definition of 'Divide'
+  Generating Code...
+     Creating library E:\Softwaren\C++\c++_github\dll_tutorial\dll_create\Debug\dll_create.lib and object E:\Softwaren\C++\c++_github\dll_tutorial\dll_create\Debug\dll_create.exp
+  dll_create.vcxproj -> E:\Softwaren\C++\c++_github\dll_tutorial\dll_create\Debug\dll_create.dll
