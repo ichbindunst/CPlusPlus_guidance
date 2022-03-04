@@ -32,5 +32,11 @@ int main(){
 
     yao.showAddress();
 
-    std::cout << "Hello World " << std::endl;
+    std::cout << "test if you can do this: " << std::endl;
+
+    // or you can do this
+    Person::Address innerClass;
+    innerClass.city = "Yaan";
+    std::cout << innerClass.city << std::endl;    
+
 }
