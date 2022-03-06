@@ -1,27 +1,53 @@
 #include <iostream>
-#include <string.h>
+#include <string>
 
-class Entity{
-public:
-    int x, y;
+// constructor 
 
-    Entity(int x, int y)
-        :x(x), y(y)
-    {
+class Human{
+    private:
+        int age;
+        std::string name;
+    
+    public:
 
-    }
+        Human(){
+            age = 0;
+            std::cout << "Constructor is build " << std::endl;
+        }
+        
+        
+        Human(int Humanage, std::string humanName){
+            this->age = Humanage;
+            this->name = humanName;
+            std::cout << "overload the constructor" << std::endl;
+        }
+        
 
-    // with keyword "this" is the same as above
-    Entity(int x, int y)
-    {
-        // "this" refers to "this object/class Entity"
-        this->x = x;
-        this->y = y;
-    }
+       // can also be initialized as this
+       /** 
+       Human(int Humanage, std::string humanName) : age(Humanage), name(humanName)
+       {
+           std::cout << "is the same effect" << std::endl;
+       }
+       **/
+
+        void IntroduceSelf(){
+            std::cout << "His name is: " << name << ", and his age is " << age << std::endl;
+        }
+
 };
+
+
 
 int main(){
 
-    
+    // contructor
+    Human firstMan;
+    Human firstWoman(28, "Emma");
+    firstMan.IntroduceSelf();
+    firstWoman.IntroduceSelf();
+
+   
+
     return 0;
 }
