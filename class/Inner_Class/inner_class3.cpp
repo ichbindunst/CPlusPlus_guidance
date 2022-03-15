@@ -24,6 +24,4 @@ int main(){
     std::cout << innerClass.country << std::endl;
     std::cout << innerClass.city << std::endl;    
 
-    
-
 }
